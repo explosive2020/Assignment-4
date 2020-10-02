@@ -1,0 +1,92 @@
+*{font-family: Arial, Helvetica, sans-serif;}
+
+.headerbox {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.navList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.navList li {
+  margin: auto;
+}
+
+.containerIndex {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+}
+
+.boxIndex1 {
+  text-align: center;
+  flex: 1;
+  display: inline-block;
+}
+
+.boxIndex2 {
+  flex: 1;
+}
+
+.sTeamImg {
+  width: 200px;
+  height: 400px;
+}
+
+.boxTeam1,
+.boxTeam2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.boxImage {
+  text-align: center;
+  margin: auto;
+  display: inline-block;
+  flex: 1;
+}
+
+.boxBio {
+  flex: 1;
+}
+
+.containerTeam {
+  display: flex;
+  flex-direction: column;
+}
+
+.containerTeam div {
+  margin-top: 5%;
+}
+
+div.servicesContainer div {
+  text-align: center;
+  margin: 0 20% 0 20%;
+}
+
+table {
+  background-color: rebeccapurple;
+  margin: auto;
+}
+
+.sModel {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 20% 0 20%;
+}
+
+div.sModel div {
+  margin-top: 30px;
+}
+
+#surname,
+#firstname,
+#email,
+#mobile {
+  width: 600px;
+}
